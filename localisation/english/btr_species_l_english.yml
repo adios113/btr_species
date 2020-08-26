@@ -1,0 +1,23 @@
+﻿################
+##
+## SPECIES NAME TRANSLATIONS
+##
+################
+
+l_english:
+  ALL:0 "Human"
+  ALL_desc:0 "Alliance Humans"
+  ALL_plural:0 "Humans"
+  ALL_insult_01:0 "enemy"
+  ALL_insult_plural_01:0 "enemies"
+  ALL_compliment_01:0 "friend"
+  ALL_compliment_plural_01:0 "friends"
+  ALL_spawn:0 "child"
+  ALL_spawn_plural:0 "children"
+  ALL_sound_01:0 "laughing"
+  ALL_sound_02:0 "yelling"
+  ALL_sound_03:0 "whispering"
+  ALL_sound_04:0 "screaming"
+  ALL_sound_05:0 "singing"
+  ALL_organ:0 "brain"
+  ALL_mouth:0 "mouth"

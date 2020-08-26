@@ -1,0 +1,83 @@
+###########################
+##CANON MASS EFFECT EMPIRES
+###########################
+#
+#
+#
+#
+#
+##SYSTEMS ALLIANCE
+SystemsAlliance = {
+	name = "SystemsAlliance"
+	spawn_enabled = always 
+	ignore_portrait_duplication=yes
+
+	
+	name_list = "HUMAN1"
+	ship_prefix = "TEST_ship_prefix_SystemsAlliance"
+	
+	species_name = "TEST_species_name_SystemsAlliance"
+	species_plural = "TEST_species_plural_SystemsAlliance"
+	species_adjective = "TEST_species_adjective_SystemsAlliance"
+	species_class = "ALL"
+	species_bio = ""
+	portrait = "alliance"
+	adjective = "TEST_adjective_SystemsAlliance"
+	
+	authority = "auth_democratic"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_idealistic_foundation"
+	}
+	government = "gov_representative_democracy"
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_fanatic_egalitarian"
+	trait = "trait_adaptive"
+	trait = "trait_nomadic"
+	trait = "trait_wasteful"
+	
+	flags={ 
+		systems_alliance
+	}
+
+	planet_name = "Earth"
+	initializer = "sol_system"
+	planet_class = "pc_continental"
+	system_name = "Sol"
+	
+	room="personality_democratic_crusaders_room"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	
+	empire_flag={
+		icon={
+			category="BTR_flags"
+			file="BTR_Alliance01.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"blue"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler={
+		name="TEST_ruler_name_SystemsAlliance"
+		gender=male
+		portrait="alliance_male_05"
+		texture=0
+		hair=6
+		clothes = 6
+	}
+}
+
+
+
+
+
